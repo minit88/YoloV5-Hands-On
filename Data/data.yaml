@@ -1,0 +1,13 @@
+train: ../train/images
+valid: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['insea', 'outsea']
+
+roboflow:
+  workspace: pknu-nzio7
+  project: inseaoutsea2
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pknu-nzio7/inseaoutsea2/dataset/2
